@@ -1,0 +1,14 @@
+[gd_resource type="AudioBusLayout" load_steps=3 format=3 uid="uid://dn33en4vvc3be"]
+
+[sub_resource type="AudioEffectEQ10" id="AudioEffectEQ10_j3pel"]
+resource_name = "EQ10"
+
+[sub_resource type="AudioEffectPitchShift" id="AudioEffectPitchShift_j3pel"]
+resource_name = "PitchShift"
+
+[resource]
+bus/0/volume_db = 0.26724052
+bus/0/effect/0/effect = SubResource("AudioEffectEQ10_j3pel")
+bus/0/effect/0/enabled = false
+bus/0/effect/1/effect = SubResource("AudioEffectPitchShift_j3pel")
+bus/0/effect/1/enabled = false
