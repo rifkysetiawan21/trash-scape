@@ -5,7 +5,7 @@ public partial class Player : CharacterBody2D
 {
 	[Export] public float Kecepatan = 100;
 
-	[Export] public int LantaiSekarang = 1;     // 1–4
+	[Export] public int LantaiSekarang = 1;     // 1–4 lantai
 	private const int Z_PER_LANTAI = 2;         // jarak Z tiap lantai
 
 	private AnimatedSprite2D animasi;
